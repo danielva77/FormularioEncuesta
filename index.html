@@ -1,0 +1,56 @@
+<html>
+<head>
+  <title>Formulario</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+<h1 id="title">Sport Survey Form</h1>
+<h2 id="grateful">Thank you for taking the time to help us improve the platform</h2>
+<p id="description">Complete these questions</p></header>
+<body>
+  <div class="formulario">
+<form id="survey-form">
+  <div class="form-group"><label id="name-label">Name</label>
+<input class="form-control" id="name" type="text" placeholder="Insert your name" required></input></div>
+  <div class="form-group"><label id="email-label">Email</label>
+<input class="form-control" id="email" type="email" placeholder="Insert your email" required></input></div>
+  <div class="form-group"><label id="number-label">Age</label>
+<input class="form-control" id="number" type="number" min="10" max="80" placeholder="Insert your age" required></input></div>
+<div class="form-group"><p>How much physical activity do you do per week?</p>
+<select class="form-control" id="dropdown" required>
+  <option>More than 4 hours</option>
+  <option>4 hours to 3 hours</option>
+  <option>3 hours to 2 hours</option>
+  <option>2 hours to 1 hour</option>
+  <option>Any</option>
+</select></div>
+<div class="form-group"><p>Do you think that by playing sports you can have a more relaxed life with less stress?</p>
+<label><input name="user-selector" value="value" class="input-radio" type="radio" checked>Definitely</input></label>
+<label><input name="user-selector" value="value"  class="input-radio" type="radio">Maybe</input></label>
+<label><input name="user-selector" value="value" class="input-radio" type="radio">Not sure</input></label></div>
+
+<div class="form-group"><p>What percentage of the population do you think plays sports or sports activities?</p>
+<select class="form-control"required>
+  <option>0%-25%</option>
+  <option>26%-50%</option>
+  <option>51%-75%</option>
+  <option>76%-100%</option></select></div>
+
+<div class="form-group"><p>What sport would you like to practice at some point in your life?</p>
+<label><input name="prefer" class="input-checkbox" value="Football" type="checkbox" checked>Football</input></label>
+<label><input name="prefer" class="input-checkbox" value="swimming" type="checkbox">Swimming</input></label>
+<label><input name="prefer" class="input-checkbox" value="Running" type="checkbox">Running</input></label>
+<label><input name="prefer" class="input-checkbox" value="Gym" type="checkbox">Gym</input></label>
+<label><input name="prefer" class="input-checkbox" value="Golf" type="checkbox">Golf</input></label>
+<label><input name="prefer" class="input-checkbox" value="Other" type="checkbox">Other</input></label></div>
+
+<div class="form-group"><p>Any comments or suggestions?</p>
+<textarea class="input-textarea" placeholder="Enter your comment here ..."></textarea></div>
+
+<div class="form-group"><button id="submit" class="submit-button" type="submit"><strong>Submit</strong></button></div>
+</form></div>
+
+
+</body>
+<footer></footer>
+</html>
